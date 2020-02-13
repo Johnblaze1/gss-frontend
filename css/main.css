@@ -1,0 +1,64 @@
+.navbar{
+    box-shadow:  2px 2px 5px #3292a6;
+    opacity: 0.9;
+    background: white;
+}
+
+.nav-item{
+    font-size: 1.4rem;
+    padding-right: 20px;
+
+}
+
+
+ul.social_section_1info {
+  margin-top: 20px;
+}
+ul.social_section_1info li {
+  display: inline-block;
+}
+
+ul.social_section_1info a {
+  margin-right: 4px;
+  width: 40px;
+  height: 40px;
+  display: block;
+  text-align: center;
+  line-height: 40px;
+  border-radius: 50%;
+  -webkit-border-radius: 50%;
+  -moz-border-radius: 50%;
+  -ms-border-radius: 50%;
+  -o-border-radius: 50%;
+}
+
+ul.social_section_1info a span.fa {
+  font-size: 13.5px;
+  color: #ccc;
+  line-height: 40px;
+}
+ul.links li {
+  display: inline-block;
+  padding: 0 10px;
+}
+ul.links a,
+.copy-right p,
+.copy-right p a {
+  color: #777;
+  letter-spacing: 1px;
+  text-transform: capitalize;
+}
+
+
+.fa{
+    font-size: 25px ;
+}
+
+#authors .card:hover{
+    background: #3292a6;
+    color: white;
+}
+
+#authors .fab {
+    color: white;
+}
