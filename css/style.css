@@ -76,6 +76,7 @@ header .navbar .nav-link {
   padding: 1.7rem 1rem;
   font-size: 15px;
   outline: none !important;
+ color: rgb(114, 205, 247); 
  
 }
 
@@ -86,15 +87,15 @@ header .navbar .nav-link {
 }
 
 header .navbar .nav-link:hover {
-  color: rgb(246, 248, 250) !important;
+  color: rgb(10, 13, 15) !important;
 }
 
 header .navbar .nav-link.active {
-  color: #fff !important;
+  color: rgb(114, 205, 247) !important;
 }
 
 header .navbar .dropdown.show > a {
-  color: #fff !important;
+  color: rgb(114, 205, 247) !important;
 }
 
 header .navbar .dropdown-menu {
@@ -128,12 +129,12 @@ header .navbar .dropdown-menu:before {
 
 header .navbar .dropdown-menu .dropdown-item:hover {
   background: #007bff;
-  color: #fff;
+  color: rgb(84, 241, 247);
 }
 
 header .navbar .dropdown-menu .dropdown-item.active {
   background: #007bff;
-  color: #fff;
+  color:rgb(84, 241, 247);
 }
 
 header .navbar .dropdown-menu a {
@@ -142,11 +143,12 @@ header .navbar .dropdown-menu a {
 }
 
 header .navbar.navbar-light .nav-link {
-  color: #fff;
+  color: rgb(2, 10, 12);
 }
 
 header .navbar.navbar-light .nav-link.active {
-  color: #fff;
+  color: rgb(107, 203, 233);
+  
 }
 
 .site-hero {
@@ -542,7 +544,7 @@ textarea.form-control {
 
 .btn.btn-outline-primary {
   border-width: 2px;
-  color: #007bff;
+  color: #3a9fe2;
 }
 
 .btn.btn-outline-primary:hover, .btn.btn-outline-primary:focus, .btn.btn-outline-primary:active {
@@ -1135,6 +1137,7 @@ textarea.form-control {
 
 #accordion .card .card-body {
   padding-top: 15px;
+  border: 2px solid rgba(36, 191, 230, 0.705);
 }
 
 .testimonial {
@@ -1430,5 +1433,8 @@ blockquote p {
     stroke-dashoffset: -136px;
   }
 }
+   .primary{
+     background-color: rgb(8, 99, 202);
+   }
 
 
